@@ -32,7 +32,7 @@ def main():
                 else:
                     print(f"{timestamp} - Ping failed.")
 
-                time.sleep(0.5)  # Wait for 1 second before the next ping
+                time.sleep(0.5)  # Wait for 0.5 second before the next ping (Probably too often if I continue to run this)
         except KeyboardInterrupt:
             print("\nPing testing stopped. Results saved to", log_file)
 
